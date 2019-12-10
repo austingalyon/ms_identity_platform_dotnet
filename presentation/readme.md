@@ -22,7 +22,7 @@
 
 ![](images/control_plane.png)
 
-## Azure Active Directgory
+## Azure Active Directory
 
 ![](images/aad.png)
 
