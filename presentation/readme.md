@@ -191,8 +191,6 @@ string token = authResult.AccessToken;
 https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-windows-desktop
 :::
 
-## Authentication flow implementations
-
 ## Public client application provider implementations
 
 | Flow | Provider | Method |
@@ -394,3 +392,19 @@ IUserMessagesCollectionPage messages = await client.Me.Messages
 	.OrderBy("receivedDateTime")
 	.GetAsync();
 ```
+
+## Learn more
+
+| Link |
+| --- |
+| https://docs.microsoft.com/azure/active-directory/develop/ |
+| https://docs.microsoft.com/graph/auth-v2-user |
+| https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-windows-desktop |
+| https://docs.microsoft.com/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=dotnet#command-line-tool-without-web-browser |
+| https://docs.microsoft.com/azure/active-directory/develop/scenario-desktop-call-api?tabs=dotnet#calling-a-web-api |
+| https://developer.microsoft.com/graph/graph-explorer |
+| https://developer.microsoft.com/graph/examples |
+| https://docs.microsoft.com/graph/sdks/create-client?tabs=CS |
+| https://docs.microsoft.com/graph/sdks/create-requests?tabs=CS |
+
+# Thank you!
